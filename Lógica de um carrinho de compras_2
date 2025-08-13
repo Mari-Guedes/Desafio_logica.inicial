@@ -1,0 +1,14 @@
+// O número de produtos a ser adicionado
+let numeroDeProdutos = parseInt(gets());
+
+// TODO: Crie um array para armazenar os produtos:
+let produtos = []
+
+// TODO: Leia os produtos e os adicione ao carrinho:
+for (let i = 0; i < numeroDeProdutos; i++) {
+  let nomeProduto = gets();
+  produtos.push(nomeProduto);
+}
+
+// TODO: Exiba o carrinho final no formato esperado;
+print("Carrinho final: " + produtos.join(", "));
