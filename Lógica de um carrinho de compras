@@ -1,0 +1,19 @@
+
+let operacao = parseInt(gets()); // 1 para inserir, 2 pra retirar
+let quantidade = parseInt(gets()); 
+
+let estoque = 5;
+
+if (operacao === 1) {
+  estoque += quantidade;
+  console.log(estoque);
+} else if (operacao === 2) { 
+  if (quantidade <= estoque) {
+    estoque -= quantidade;
+    console.log(estoque);
+  } else {
+    console.log("Estoque insuficiente");
+  }
+} else {
+  console.log("Operação inválida"); 
+}
