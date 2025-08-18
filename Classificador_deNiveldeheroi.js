@@ -28,6 +28,3 @@ for (let xp of xp_Heroi) {
         nivel_Heroi.push(nivel);
     }
 }
-
-
-
